@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.text.*?>
+
+<BorderPane xmlns:fx="http://javafx.com/fxml" fx:controller="org.example.Main">
+
+    <center>
+        <VBox alignment="CENTER" spacing="15">
+            <Button fx:id="cameraButton" text="Start Camera" />
+            <Button fx:id="formatPDFButton" text="Format PDF" />
+            <ImageView fx:id="imageView" fitWidth="640" fitHeight="480" preserveRatio="true" />
+        </VBox>
+    </center>
+
+</BorderPane>
